@@ -1,0 +1,503 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D D?
+U 1 1 5EB1689E
+P 2300 2900
+F 0 "D?" H 2300 2684 50  0000 C CNN
+F 1 "D" H 2300 2775 50  0000 C CNN
+F 2 "" H 2300 2900 50  0001 C CNN
+F 3 "~" H 2300 2900 50  0001 C CNN
+	1    2300 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5EB16E9D
+P 2850 2900
+F 0 "D?" H 2850 2684 50  0000 C CNN
+F 1 "D" H 2850 2775 50  0000 C CNN
+F 2 "" H 2850 2900 50  0001 C CNN
+F 3 "~" H 2850 2900 50  0001 C CNN
+	1    2850 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5EB171B7
+P 2300 3350
+F 0 "D?" H 2300 3134 50  0000 C CNN
+F 1 "D" H 2300 3225 50  0000 C CNN
+F 2 "" H 2300 3350 50  0001 C CNN
+F 3 "~" H 2300 3350 50  0001 C CNN
+	1    2300 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5EB17A37
+P 2850 3350
+F 0 "D?" H 2850 3134 50  0000 C CNN
+F 1 "D" H 2850 3225 50  0000 C CNN
+F 2 "" H 2850 3350 50  0001 C CNN
+F 3 "~" H 2850 3350 50  0001 C CNN
+	1    2850 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC141 Q?
+U 1 1 5EB1DAC6
+P 7650 4650
+F 0 "Q?" H 7841 4696 50  0000 L CNN
+F 1 "BC141" H 7841 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 7850 4575 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 7650 4650 50  0001 L CNN
+	1    7650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EB1ABE4
+P 7750 4150
+F 0 "D?" V 7789 4033 50  0000 R CNN
+F 1 "LED" V 7698 4033 50  0000 R CNN
+F 2 "" H 7750 4150 50  0001 C CNN
+F 3 "~" H 7750 4150 50  0001 C CNN
+	1    7750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB18EFA
+P 7750 3750
+F 0 "R?" H 7820 3796 50  0000 L CNN
+F 1 "R" H 7820 3705 50  0000 L CNN
+F 2 "" V 7680 3750 50  0001 C CNN
+F 3 "~" H 7750 3750 50  0001 C CNN
+	1    7750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC141 Q?
+U 1 1 5EB23C2F
+P 8650 4650
+F 0 "Q?" H 8841 4696 50  0000 L CNN
+F 1 "BC141" H 8841 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 8850 4575 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 8650 4650 50  0001 L CNN
+	1    8650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EB23C39
+P 8750 4150
+F 0 "D?" V 8789 4033 50  0000 R CNN
+F 1 "LED" V 8698 4033 50  0000 R CNN
+F 2 "" H 8750 4150 50  0001 C CNN
+F 3 "~" H 8750 4150 50  0001 C CNN
+	1    8750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB23C43
+P 8750 3750
+F 0 "R?" H 8820 3796 50  0000 L CNN
+F 1 "R" H 8820 3705 50  0000 L CNN
+F 2 "" V 8680 3750 50  0001 C CNN
+F 3 "~" H 8750 3750 50  0001 C CNN
+	1    8750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC141 Q?
+U 1 1 5EB2A825
+P 9650 4650
+F 0 "Q?" H 9841 4696 50  0000 L CNN
+F 1 "BC141" H 9841 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 9850 4575 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 9650 4650 50  0001 L CNN
+	1    9650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EB2A82F
+P 9750 4150
+F 0 "D?" V 9789 4033 50  0000 R CNN
+F 1 "LED" V 9698 4033 50  0000 R CNN
+F 2 "" H 9750 4150 50  0001 C CNN
+F 3 "~" H 9750 4150 50  0001 C CNN
+	1    9750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB2A839
+P 9750 3750
+F 0 "R?" H 9820 3796 50  0000 L CNN
+F 1 "R" H 9820 3705 50  0000 L CNN
+F 2 "" V 9680 3750 50  0001 C CNN
+F 3 "~" H 9750 3750 50  0001 C CNN
+	1    9750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC141 Q?
+U 1 1 5EB2A843
+P 10650 4650
+F 0 "Q?" H 10841 4696 50  0000 L CNN
+F 1 "BC141" H 10841 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 10850 4575 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 10650 4650 50  0001 L CNN
+	1    10650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EB2A84D
+P 10750 4150
+F 0 "D?" V 10789 4033 50  0000 R CNN
+F 1 "LED" V 10698 4033 50  0000 R CNN
+F 2 "" H 10750 4150 50  0001 C CNN
+F 3 "~" H 10750 4150 50  0001 C CNN
+	1    10750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB2A857
+P 10750 3750
+F 0 "R?" H 10820 3796 50  0000 L CNN
+F 1 "R" H 10820 3705 50  0000 L CNN
+F 2 "" V 10680 3750 50  0001 C CNN
+F 3 "~" H 10750 3750 50  0001 C CNN
+	1    10750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC141 Q?
+U 1 1 5EB2E1E3
+P 3650 4650
+F 0 "Q?" H 3841 4696 50  0000 L CNN
+F 1 "BC141" H 3841 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 3850 4575 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 3650 4650 50  0001 L CNN
+	1    3650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EB2E1ED
+P 3750 4150
+F 0 "D?" V 3789 4033 50  0000 R CNN
+F 1 "LED" V 3698 4033 50  0000 R CNN
+F 2 "" H 3750 4150 50  0001 C CNN
+F 3 "~" H 3750 4150 50  0001 C CNN
+	1    3750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB2E1F7
+P 3750 3750
+F 0 "R?" H 3820 3796 50  0000 L CNN
+F 1 "R" H 3820 3705 50  0000 L CNN
+F 2 "" V 3680 3750 50  0001 C CNN
+F 3 "~" H 3750 3750 50  0001 C CNN
+	1    3750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC141 Q?
+U 1 1 5EB2E201
+P 4650 4650
+F 0 "Q?" H 4841 4696 50  0000 L CNN
+F 1 "BC141" H 4841 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 4850 4575 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 4650 4650 50  0001 L CNN
+	1    4650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EB2E20B
+P 4750 4150
+F 0 "D?" V 4789 4033 50  0000 R CNN
+F 1 "LED" V 4698 4033 50  0000 R CNN
+F 2 "" H 4750 4150 50  0001 C CNN
+F 3 "~" H 4750 4150 50  0001 C CNN
+	1    4750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB2E215
+P 4750 3750
+F 0 "R?" H 4820 3796 50  0000 L CNN
+F 1 "R" H 4820 3705 50  0000 L CNN
+F 2 "" V 4680 3750 50  0001 C CNN
+F 3 "~" H 4750 3750 50  0001 C CNN
+	1    4750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC141 Q?
+U 1 1 5EB2E21F
+P 5650 4650
+F 0 "Q?" H 5841 4696 50  0000 L CNN
+F 1 "BC141" H 5841 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 5850 4575 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 5650 4650 50  0001 L CNN
+	1    5650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EB2E229
+P 5750 4150
+F 0 "D?" V 5789 4033 50  0000 R CNN
+F 1 "LED" V 5698 4033 50  0000 R CNN
+F 2 "" H 5750 4150 50  0001 C CNN
+F 3 "~" H 5750 4150 50  0001 C CNN
+	1    5750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB2E233
+P 5750 3750
+F 0 "R?" H 5820 3796 50  0000 L CNN
+F 1 "R" H 5820 3705 50  0000 L CNN
+F 2 "" V 5680 3750 50  0001 C CNN
+F 3 "~" H 5750 3750 50  0001 C CNN
+	1    5750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC141 Q?
+U 1 1 5EB2E23D
+P 6650 4650
+F 0 "Q?" H 6841 4696 50  0000 L CNN
+F 1 "BC141" H 6841 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 6850 4575 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 6650 4650 50  0001 L CNN
+	1    6650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EB2E247
+P 6750 4150
+F 0 "D?" V 6789 4033 50  0000 R CNN
+F 1 "LED" V 6698 4033 50  0000 R CNN
+F 2 "" H 6750 4150 50  0001 C CNN
+F 3 "~" H 6750 4150 50  0001 C CNN
+	1    6750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB2E251
+P 6750 3750
+F 0 "R?" H 6820 3796 50  0000 L CNN
+F 1 "R" H 6820 3705 50  0000 L CNN
+F 2 "" V 6680 3750 50  0001 C CNN
+F 3 "~" H 6750 3750 50  0001 C CNN
+	1    6750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2900 3250 2900
+Wire Wire Line
+	3250 2900 3250 3100
+Wire Wire Line
+	3250 3350 3000 3350
+Wire Wire Line
+	2700 3350 2600 3350
+Wire Wire Line
+	2450 2900 2600 2900
+Wire Wire Line
+	2150 2900 1850 2900
+Wire Wire Line
+	1850 2900 1850 3350
+Wire Wire Line
+	1850 3350 2150 3350
+$Comp
+L Motor:Motor_AC M?
+U 1 1 5EBBA4FE
+P 1250 3000
+F 0 "M?" H 1408 2996 50  0000 L CNN
+F 1 "Motor_AC" H 1408 2905 50  0000 L CNN
+F 2 "" H 1250 2910 50  0001 C CNN
+F 3 "~" H 1250 2910 50  0001 C CNN
+	1    1250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2900 2600 2450
+Wire Wire Line
+	2600 2450 1250 2450
+Wire Wire Line
+	1250 2450 1250 2800
+Connection ~ 2600 2900
+Wire Wire Line
+	2600 2900 2700 2900
+Wire Wire Line
+	2600 3350 2600 3750
+Wire Wire Line
+	2600 3750 1250 3750
+Wire Wire Line
+	1250 3750 1250 3300
+Connection ~ 2600 3350
+Wire Wire Line
+	2600 3350 2450 3350
+Wire Wire Line
+	3250 3100 3750 3100
+Wire Wire Line
+	10750 3100 10750 3600
+Connection ~ 3250 3100
+Wire Wire Line
+	3250 3100 3250 3350
+Wire Wire Line
+	9750 3600 9750 3100
+Connection ~ 9750 3100
+Wire Wire Line
+	9750 3100 10750 3100
+Wire Wire Line
+	8750 3600 8750 3100
+Connection ~ 8750 3100
+Wire Wire Line
+	8750 3100 9750 3100
+Wire Wire Line
+	7750 3600 7750 3100
+Connection ~ 7750 3100
+Wire Wire Line
+	7750 3100 8750 3100
+Wire Wire Line
+	6750 3600 6750 3100
+Connection ~ 6750 3100
+Wire Wire Line
+	6750 3100 7750 3100
+Wire Wire Line
+	5750 3600 5750 3100
+Connection ~ 5750 3100
+Wire Wire Line
+	5750 3100 6750 3100
+Wire Wire Line
+	4750 3600 4750 3100
+Connection ~ 4750 3100
+Wire Wire Line
+	4750 3100 5750 3100
+Wire Wire Line
+	3750 3600 3750 3100
+Connection ~ 3750 3100
+Wire Wire Line
+	3750 3100 4750 3100
+Wire Wire Line
+	3750 3900 3750 4000
+Wire Wire Line
+	4750 3900 4750 4000
+Wire Wire Line
+	5750 3900 5750 4000
+Wire Wire Line
+	6750 3900 6750 4000
+Wire Wire Line
+	7750 3900 7750 4000
+Wire Wire Line
+	8750 3900 8750 4000
+Wire Wire Line
+	10750 3900 10750 4000
+Wire Wire Line
+	10750 4300 10750 4450
+Wire Wire Line
+	9750 4450 9750 4300
+Wire Wire Line
+	8750 4300 8750 4450
+Wire Wire Line
+	7750 4300 7750 4450
+Wire Wire Line
+	6750 4300 6750 4450
+Wire Wire Line
+	5750 4300 5750 4450
+Wire Wire Line
+	4750 4300 4750 4450
+Wire Wire Line
+	3750 4300 3750 4450
+Wire Wire Line
+	1800 3100 1700 3100
+Wire Wire Line
+	1700 3100 1700 5400
+Wire Wire Line
+	10750 5400 10750 4850
+Wire Wire Line
+	9750 4850 9750 5400
+Connection ~ 9750 5400
+Wire Wire Line
+	9750 5400 10750 5400
+Wire Wire Line
+	8750 4850 8750 5400
+Connection ~ 8750 5400
+Wire Wire Line
+	8750 5400 9750 5400
+Wire Wire Line
+	7750 4850 7750 5400
+Connection ~ 7750 5400
+Wire Wire Line
+	7750 5400 8750 5400
+Wire Wire Line
+	6750 4850 6750 5400
+Connection ~ 6750 5400
+Wire Wire Line
+	6750 5400 7750 5400
+Wire Wire Line
+	5750 4850 5750 5400
+Connection ~ 5750 5400
+Wire Wire Line
+	5750 5400 6750 5400
+Wire Wire Line
+	4750 4850 4750 5400
+Connection ~ 4750 5400
+Wire Wire Line
+	4750 5400 5750 5400
+Wire Wire Line
+	3750 4850 3750 5400
+Connection ~ 3750 5400
+Wire Wire Line
+	3750 5400 4750 5400
+$Comp
+L Device:C C?
+U 1 1 5EBDDB9E
+P 3250 3900
+F 0 "C?" H 3365 3946 50  0000 L CNN
+F 1 "C" H 3365 3855 50  0000 L CNN
+F 2 "" H 3288 3750 50  0001 C CNN
+F 3 "~" H 3250 3900 50  0001 C CNN
+	1    3250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3350 3250 3750
+Connection ~ 3250 3350
+Wire Wire Line
+	3250 4050 3250 5400
+Wire Wire Line
+	1700 5400 3250 5400
+Wire Wire Line
+	3250 5400 3750 5400
+Connection ~ 3250 5400
+$EndSCHEMATC
